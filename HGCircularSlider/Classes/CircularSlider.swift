@@ -264,6 +264,7 @@ open class CircularSlider: UIControl {
     
     internal func setup() {
         trackFillColor = tintColor
+        backgroundColor = UIColor(white: 0, alpha: 0)
     }
 
 
