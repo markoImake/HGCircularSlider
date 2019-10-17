@@ -401,7 +401,7 @@ open class CircularSlider: UIControl {
             
             setNeedsDisplay()
 
-            NotificationCenter.default.post(name: Notification.Name("valueChange"), object: nil, userInfo: ["endPointChanged":"\(startPointValue)"])
+            NotificationCenter.default.post(name: Notification.Name("valueChange"), object: nil, userInfo: ["endPointChanged":"\(endPointValue)"])
         }
     }
     
