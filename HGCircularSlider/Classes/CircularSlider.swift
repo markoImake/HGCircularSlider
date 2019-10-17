@@ -452,6 +452,7 @@ open class CircularSlider: UIControl {
      *
      * The default value of this property is 0.0.
      */
+     @IBInspectable
     open var startPointValue: CGFloat = 0.0 {
         didSet {
             guard oldValue != startPointValue else { return }
@@ -476,6 +477,7 @@ open class CircularSlider: UIControl {
      *
      * The default value of this property is 0.5
      */
+     @IBInspectable
     open var endPointValue: CGFloat = 0 {
         didSet {
             if oldValue == endPointValue && distance <= 0 {
